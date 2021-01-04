@@ -26,5 +26,5 @@ Trevor Broady & Nikita Popel
 <h2>Update Log</h2>
 <table>
 <tr><th>Date</th><th>Log</th></tr>
-<tr><td>2021/1/4</td><td>Trevor Broady, Nikita Popel - Created Repository and pushed previous Single Stage implementation</td></tr>
+<tr><td>2021/01/04</td><td>Trevor Broady, Nikita Popel - Created Repository and pushed previous Single Stage implementation</td></tr>
 </table>

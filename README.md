@@ -9,18 +9,21 @@ Trevor Broady & Nikita Popel
 5 Stage Pipelined RISC Processor Implementation
 </p>
 
-
 <h3>Short-term Goals</h3>
 <ul>
-<li>Update Design Sheet with NOPs and additional instruction set</li>
-<li>Re-design top-level RISC processor design</li>
-<li>Implement system buffers for 5-stage</li>
-<li>Redo simulations and error testing</li>
+<li>Update Design Sheet by converting to 32-bit</li>
+<li>Update Design Sheet with additional instruction set: nor, nori, inv, xori, mul, div, and nop</li>
+<li>Re-design top-level RISC processor design by adding 4 system buffers, forwarding unit, and hazard detection unit</li>
 </ul>
 
 <h3>Long-term Goals</h3>
 <ul>
-<li><i>N/A</i></li>
+<li>Editing our VHDL code to implement the updated processor design</li>
+<li>Redo simulations and error testing</li>
+<li>Implement factorial instruction</li>
+<li>Implement modulus</li>
+<li>Implement exponent</li>
+<li>Implement branch if is a divisor and branch if is a multiple</li>
 </ul>
 
 <h2>Update Log</h2>

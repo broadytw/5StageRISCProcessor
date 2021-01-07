@@ -11,8 +11,6 @@ Trevor Broady & Nikita Popel
 
 <h3>Short-term Goals</h3>
 <ul>
-<li>Update Design Sheet by converting to 32-bit</li>
-<li>Update Design Sheet with additional instruction set: nor, nori, inv, xori, mul, div, and nop</li>
 <li>Re-design top-level RISC processor design by adding 4 system buffers, forwarding unit, and hazard detection unit</li>
 </ul>
 
@@ -30,4 +28,5 @@ Trevor Broady & Nikita Popel
 <table>
 <tr><th>Date</th><th>Log</th></tr>
 <tr><td>2021/01/04</td><td>Trevor Broady, Nikita Popel - Created Repository and pushed previous Single Stage implementation</td></tr>
+<tr><td>2021/01/05</td><td>Trevor Broady, Nikita Popel - Updated new schematic and updated design sheet with additional instruction set: nor, nori, inv, xori, mul, div, and nop</td></tr>
 </table>

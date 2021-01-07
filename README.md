@@ -29,4 +29,5 @@ Trevor Broady & Nikita Popel
 <tr><th>Date</th><th>Log</th></tr>
 <tr><td>2021/01/04</td><td>Trevor Broady, Nikita Popel - Created Repository and pushed previous Single Stage implementation</td></tr>
 <tr><td>2021/01/05</td><td>Trevor Broady, Nikita Popel - Updated new schematic and updated design sheet with additional instruction set: nor, nori, inv, xori, mul, div, and nop</td></tr>
+<tr><td>2021/01/07</td><td>Nikita Popel - Continued editing schematic</td></tr>
 </table>

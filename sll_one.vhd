@@ -4,8 +4,8 @@ use ieee.NUMERIC_STD.all;
 
 entity sll_one is
 	port (
-		imm			: in std_logic_vector(15 downto 0);
-		imm_shifted			: out std_logic_vector(15 downto 0));
+		imm			: in std_logic_vector(31 downto 0);
+		imm_shifted			: out std_logic_vector(31 downto 0));
 end sll_one;
 
 architecture behavioral of sll_one is

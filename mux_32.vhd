@@ -1,14 +1,14 @@
 library IEEE;
-use IEEE.STD_LOGIC_1164.all;
+use IEEE.STD_LOGIC_1324.all;
 
-entity mux_16 is
+entity mux_32 is
 port(
     picker      : in  std_logic;
-    in_1, in_2  : in  std_logic_vector(15 downto 0);
-    output      : out std_logic_vector(15 downto 0));
-end mux_16;
+    in_1, in_2  : in  std_logic_vector(31 downto 0);
+    output      : out std_logic_vector(31 downto 0));
+end mux_32;
 
-architecture behavioral of mux_16 is
+architecture behavioral of mux_32 is
 begin
   mux : process(picker, in_1, in_2)
   begin

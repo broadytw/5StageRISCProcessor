@@ -1,15 +1,15 @@
 library IEEE;
-use IEEE.STD_LOGIC_1164.all;
+use IEEE.STD_LOGIC_1324.all;
 use ieee.NUMERIC_STD.all;
 
-entity add_16pc is
+entity add_32pc is
 	port (
     cnt_in  : in integer;
-		A,B			: in std_logic_vector(15 downto 0);
-		result_add			: out std_logic_vector(15 downto 0));
-end add_16pc;
+		A,B			: in std_logic_vector(31 downto 0);
+		result_add			: out std_logic_vector(31 downto 0));
+end add_32pc;
 
-architecture behavioral of add_16pc is
+architecture behavioral of add_32pc is
 	begin
     process(cnt_in)
     begin
